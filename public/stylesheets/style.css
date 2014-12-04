@@ -1,0 +1,159 @@
+html, body, input, button, ul, li {
+	padding: 0px;
+  margin: 0px;
+}
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+p {
+	margin-top: 5px;
+	margin-bottom: 0px;
+	padding: 0;
+}
+header {
+	position: relative;
+	height: 80px;
+	background-color: #f1f1f1;
+	width: 100%;
+	margin: 0 auto;
+}
+#query-info {
+	height: 40px;
+	line-height: 43px;
+	color: #808080;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#content {
+	position: relative;
+	margin-top: 20px;
+	float: left;
+	width: 400px;
+}
+#search-area {
+	width: 501px;
+	padding-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#logo {
+	width: 140px;
+	height: 60px;
+	background-image: url("/images/logo.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	float: left;
+}
+.search-image {
+	background-image: url("/images/search.png");
+  display:inline-block;
+  height: 15px;
+  margin: 0 auto;
+  width: 15px;
+  background-repeat: no-repeat;
+}
+#search-button {
+	float: left;
+	background: #4387FD;
+  background:-webkit-linear-gradient(top, #4387FD, #4683EA);
+  background:-moz-linear-gradient(top, #4387FD, #4683EA);
+  background:-o-linear-gradient(top, #4387FD, #4683EA);
+  background:-ms-linear-gradient(top, #4387FD, #4683EA);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4387FD', endColorstr='#4683EA',GradientType=0 );
+  border:1px solid transparent;
+  border-bottom-left-radius:0;
+  border-top-left-radius:0;
+  box-shadow:none;
+  box-sizing:border-box;
+  height:30px;
+  padding-top:3px;
+  outline:none;
+  width:60px;
+}
+#search-button:active {
+	background: #0255e4;
+	background:-webkit-linear-gradient(top, #0255e4, #1656c4);
+	background:-moz-linear-gradient(top, #0255e4, #1656c4);
+	background:-o-linear-gradient(top, #0255e4, #1656c4);
+	background:-ms-linear-gradient(top, #0255e4, #1656c4);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0255e4', endColorstr='#1656c4',GradientType=0 );
+}
+#q-field {
+	float: left;
+	padding-top: 3px;
+	line-height: 26px;
+	height: 26px;
+	font-family: arial, sans-serif;
+	font-size: 1em;
+	color: #333;
+	border:solid 1px #d9d9d9; 
+  border-top:solid 1px #c0c0c0; 
+  border-right:none;
+  width: 300px;
+}
+ul#results {
+	list-style-type: none;
+}
+ul#results li {
+	margin-bottom: 20px;
+}
+#food-info{
+	width: 400px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 100px;
+}
+.food-name {
+	font-size: 20pt;
+	margin: 0;
+	padding: 0;
+}
+#container {
+	width: 900px;
+	margin-left: 150px;
+	min-width: 900px;
+}
+footer {
+	height: 4em;
+	clear: both;
+	width: 100px;
+	bottom: 0;
+	right: 0;
+	position: fixed;
+	margin: 0;
+	padding: 0;
+}
+.food-table{
+  background-color:#FAFAFA;
+  border-collapse:collapse;
+  border-spacing:0;
+  border-top-color:#DDDDDD;
+  border-top-style:solid;
+  border-top-width:2px;
+  padding:0;
+  table-layout:fixed;
+  width:100%;
+}
+.food-table tr{
+	border-top: 1px solid #DDD;
+}
+.ui-autocomplete {
+	max-height: 200px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+/* IE 6 doesn't support max-height
+* we use height instead, but this forces the menu to always be this tall
+*/
+* html .ui-autocomplete {
+	height: 200px;
+}
+.clear {
+	margin: 0;
+	padding: 0;
+	clear: both;
+}

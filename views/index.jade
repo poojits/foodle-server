@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  header
+    #search-area
+      #logo
+      form(id="search", name="search")
+        input(id="q-field", type="text", name="q")
+        button#search-button
+          span.search-image
+        input(id="q-id",name="q-id",type="hidden")
+  #container
+    #query-info
+    #content
+      ul#results
+    #food-info
+    p.clear
+  footer
+    | Poojit Sharma
