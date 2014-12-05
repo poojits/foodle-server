@@ -17,7 +17,7 @@ food_db = require('./data/food_data.json');
 console.log('Food data loaded');
 
 console.log('Loading nutritional data');
-nut_db = require('./data/nut_data.json');
+nut_db = require('./data/nut_data_norm.json');
 console.log('Nutritional data loaded');
 
 food_ids = [];
